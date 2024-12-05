@@ -28,6 +28,13 @@
 <script src="/scripts/configs.js" type="module"></script>
 <script src="/scripts/commerce.js" type="module"></script>
 <script type="text/javascript" src="https://assets.adobedtm.com/d4b7d80f6e21/b92f716ddc67/launch-604694a1a5c9-development.min.js"></script>
+<script>
+  !function(e,a,n,t){var i=e.head;if(i){
+  if (a) return;
+  var o=e.createElement("style");
+  o.id="alloy-prehiding",o.innerText=n,i.appendChild(o),setTimeout(function(){o.parentNode&&o.parentNode.removeChild(o)},t)}}
+  (document, document.location.href.indexOf("adobe_authoring_enabled") !== -1, ".hero-wrapper { opacity: 0 !important }", 3000);
+</script>
 
 <link rel="modulepreload" href="/scripts/dropins.js" />
 <link rel="modulepreload" href="/scripts/__dropins__/tools/event-bus.js" />
